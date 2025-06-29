@@ -1,0 +1,37 @@
+ul
+{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+
+}
+
+img
+{
+    display: block;
+    max-width: 100%;
+
+}
+
+.galeria
+{
+    max-width: 1000px;
+    padding: 10px 100px;
+    margin: 0px auto
+
+}
+
+.galeria-lista
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-bottom: 10px;
+    gap: 10px;
+
+}
+
+.galeria-lista img
+{
+    cursor: pointer;
+
+}

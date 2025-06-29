@@ -1,0 +1,423 @@
+.nebula-titulo
+{
+    max-width: 1200px;
+    padding: 64px 160px;
+    margin: 0px auto;
+    background-color: #121212;
+
+}
+
+.nebula-titulo h1
+{
+    margin-top: 12px;
+    margin-bottom: 0px;
+    font-size: 4rem;
+    font-weight: bold;
+    color: #ffffff;
+
+}
+
+.nebula-titulo h2
+{
+    margin: 0px;
+    font-size: 2rem;
+    font-weight: 100;
+    color: #dedede;
+
+}
+
+.nebula-conteudo
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 1200px;
+    padding: 64px 160px;
+    padding-top: 0px;
+    margin: 0px auto;
+    gap: 40px;
+    background-color: #121212;
+
+}
+
+.nebula-imagens
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-content: start;
+    gap: 24px;
+
+}
+
+.nebula-imagens img
+{
+    border-radius: 5px;
+
+}
+
+.nebula-imagens img:first-child
+{
+    grid-column: 1/-1;
+
+}
+
+.nebula-texto > p
+{
+    margin-top: 0px;
+    margin-bottom: 40px;
+    font-size: 1.5rem;
+    color: #dedede;
+
+}
+
+.nebula-comprar
+{
+    display: grid;
+    grid-template-columns: max-content auto;
+    align-items: center;
+    justify-items: start;
+    gap: 6px 12px;
+
+}
+
+.nebula-comprar .botao
+{
+    grid-row: span 2;
+
+}
+
+.nebula-entrega, .nebula-estoque
+{
+    display: flex;
+    align-items: center;
+    padding: 4px 8px;
+    margin: 0px;
+    gap: 4px;
+    font-size: 0.75rem;
+    color: #dedede;
+    background-color: #000000;
+    border-radius: 5px;
+
+}
+
+.nebula-texto h2
+{
+    margin-top: 40px;
+    margin-bottom: 16px;
+    font-size: 1rem;
+    font-weight: 100;
+    color: #dedede;
+
+}
+
+.nebula-informacoes
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 32px 24px;
+    gap: 32px;
+    background-color: #000000;
+    border-radius: 5px;
+
+}
+
+.nebula-item
+{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-content: start;
+    gap: 16px 8px;
+
+}
+
+.nebula-item img
+{
+    width: 24px;
+    align-self: center;
+
+}
+
+.nebula-item h3
+{
+    margin: 0px;
+    font-size: 1.5rem;
+    color: #ffffff;
+
+}
+
+.nebula-item p
+{
+    grid-column: 1/-1;
+    margin: 0px;
+    font-size: 1rem;
+    color: #dedede;
+
+}
+
+.nebula-ficha
+{
+    padding: 24px;
+    margin: 0px;
+    background-color: #000000;
+    border-radius: 5px;
+
+}
+
+.nebula-caracteristicas
+{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 12px;
+    padding-bottom: 6px;
+    font-size: 1rem;
+    color: #dedede;
+    border-bottom: solid 2px #121212;
+
+}
+
+.nebula-caracteristicas:first-child
+{
+    padding-top: 0px;
+
+}
+
+.nebula-caracteristicas:last-child
+{
+    padding-bottom: 0px;
+    border-bottom: none;
+
+}
+
+.nebula-outras
+{
+    max-width: 1200px;
+    padding: 64px 160px;
+    margin: 0px auto;
+    background-color: #f2f2f2;
+
+}
+
+.nebula-outras h2
+{
+    margin-top: 0px;
+    margin-bottom: 64px;
+    font-size: 4rem;
+    font-weight: bold;
+    color: #000000;
+
+}
+
+.nebula-outras ul
+{
+    display: flex;
+    margin: 0px;
+    gap: 40px;
+    overflow: auto;
+
+}
+
+.nebula-outras li
+{
+    min-width: 326px;
+    margin-bottom: 12px;
+}
+
+.nebula-outras img
+{
+    border-radius: 5px;
+
+}
+    
+.nebula-outras h3
+{
+    display: flex;
+    align-items: center;
+    margin-top: 12px;
+    margin-bottom: 4px;
+    font-size: 1.5rem;
+    color: #000000;
+
+}
+
+.nebula-outras h3::before
+{
+    content: "";
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    margin-right: 8px;
+    border-radius: 4px;
+    background-color: #ffb800;
+
+}
+
+.nebula-outras li:hover h3::before
+{
+    width: 12px;
+    height: 12px;
+    border-radius: 6px;
+
+}
+
+.nebula-outras p
+{
+    margin-top: 4px;
+    margin-bottom: 0px;
+    padding-left: 16px;
+    font-size: 1rem;
+    color: #121212;
+
+}
+
+.nebula-seguro
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 1520px;
+    margin: 0px auto;
+    gap: 40px;
+    background-color: #121212;
+
+}
+
+.seguro-imagem img
+{
+    width: 100%;
+    max-height: 640px;
+    object-fit: cover;
+
+}
+
+.seguro-texto
+{
+    max-width: 480px;
+
+}
+
+.seguro-texto h2
+{
+    margin-top: 60px;
+    margin-bottom: 40px;
+    font-size: 4rem;
+    color: #ffffff;
+
+}
+
+.seguro-texto p
+{
+    margin-top: 0px;
+    margin-bottom: 36px;
+    font-size: 1.25rem;
+    color: #dedede;
+
+}
+
+@media(max-width: 1200px)
+{
+    .nebula-titulo
+    {
+        padding-top: 48px;
+        padding-bottom: 48px;
+
+    }
+
+    .nebula-titulo h1
+    {
+        font-size: 3rem;
+
+    }
+
+    .nebula-conteudo
+    {
+        grid-template-columns: 1fr;
+        gap: 32px;
+
+    }
+
+    .nebula-texto > p
+    {
+        margin-bottom: 32px;
+        font-size: 1.25rem;
+
+    }
+
+    .nebula-outras h2
+    {
+        margin-bottom: 32px;
+        font-size: 3rem;
+
+    }
+
+    .nebula-outras h3
+    {
+        font-size: 1.25rem;
+
+    }
+
+    .seguro-texto
+    {
+        max-width: 400px;
+
+    }
+
+    .seguro-texto h2
+    {
+        margin-bottom: 32px;
+        font-size: 3rem;
+
+    }
+
+    .seguro-texto p
+    {
+        margin-bottom: 24px;
+
+    }
+
+}
+
+@media(max-width: 1000px)
+{
+    .nebula-titulo, .nebula-conteudo, .nebula-outras
+    {
+        padding-left: 80px;
+        padding-right: 80px;
+
+    }
+
+    .nebula-imagens
+    {
+        gap: 16px;
+
+    }
+
+    .nebula-comprar
+    {
+        grid-template-columns: 1fr;
+
+    }
+
+    .nebula-informacoes
+    {
+        grid-template-columns: 1FR;
+
+    }
+
+    .nebula-seguro
+    {
+        grid-template-columns: 1fr;
+        gap: 0px;
+
+    }
+
+    .seguro-texto
+    {
+        padding: 40px 80px;
+
+    }
+
+    .seguro-texto h2
+    {
+        margin-top: 0px;
+
+    }
+
+}

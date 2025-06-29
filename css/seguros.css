@@ -1,0 +1,419 @@
+.segurosP-titulo
+{
+    max-width: 1200px;
+    padding: 64px 160px;
+    margin: 0px auto;
+    background-color: #121212;
+
+}
+
+.segurosP-titulo h1
+{
+    margin-top: 12px;
+    margin-bottom: 0px;
+    font-size: 4rem;
+    font-weight: bold;
+    color: #ffffff;
+
+}
+
+.segurosP-titulo h2
+{
+    margin: 0px;
+    font-size: 1.5rem;
+    font-weight: 100;
+    color: #dedede;
+
+}
+
+.segurosP-opcoes
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 1200px;
+    align-items: start;
+    padding: 64px 160px;
+    padding-top: 0px;
+    margin: 0px auto;
+    gap: 40px;
+    background-color: #121212;
+
+}
+
+.seguroP-prata, .seguroP-ouro
+{
+    padding: 40px 52px;
+    background-color: #000000;
+    border-radius: 5px;
+
+}
+
+.seguroP-titulo
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.seguroP-prata h3
+{
+    margin-top: 0px;
+    margin-bottom: 60px;
+    font-size: 3rem;
+    color: #9c9c9c;
+
+}
+
+.seguroP-ouro h3
+{
+    margin-top: 0px;
+    margin-bottom: 60px;
+    font-size: 3rem;
+    color: #ffb800;
+
+}
+
+.seguroP-preco
+{
+    display: block;
+    margin-top: 0px;
+    margin-bottom: 60px;
+    text-align: right;
+    font-size: 3rem;
+    font-weight: bold;
+    color: #ffffff;
+
+}
+
+.seguroP-preco span
+{
+    display: block;
+    font-size: 1.25rem;
+    font-weight: normal;
+    color: #dedede;
+
+}
+
+.seguroP-vantagens
+{
+    margin: 0px;
+    font-size: 1.5rem;
+    color: #dedede;
+
+}
+
+.seguroP-vantagens li + li
+{
+    margin-top: 40px;
+
+}
+
+.seguroP-vantagens li
+{
+    display: flex;
+    align-items: center;
+    position: relative;
+
+}
+
+.seguroP-vantagens li::before
+{
+    content: "";
+    display: inline-block;
+    width: 13px;
+    height: 9px;
+    background-image: url(/img/icones/lista.svg);
+    position: absolute;
+    left: -21px;
+
+}
+
+.seguroP-prata .botao
+{
+    margin-top: 60px;
+    margin-bottom: 20px;
+    background-image: linear-gradient(#121212, #090909);
+    color: #dedede;
+
+}
+
+.seguroP-ouro .botao
+{
+    margin-top: 60px;
+    margin-bottom: 20px;
+
+}
+
+.vantagens
+{
+    max-width: 1200px;
+    padding: 64px 160px;
+    margin: 0px auto;
+    background-color: #f2f2f2;
+
+}
+
+.vantagens h2
+{
+    margin-top: 0px;
+    margin-bottom: 64px;
+    font-size: 4rem;
+    font-weight: bold;
+    color: #000000;
+
+}
+
+.vantagens-lista
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 48px;
+
+}
+
+.vantagem
+{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-content: start;
+    gap: 16px 8px;
+
+}
+
+.vantagem img
+{
+    width: 24px;
+    align-self: center;
+
+}
+
+.vantagem h3
+{
+    margin: 0px;
+    font-size: 1.5rem;
+    color: #000000
+
+}
+
+.vantagem p
+{
+    grid-column: 1/-1;
+    margin: 0px;
+    font-size: 1rem;
+    color: #000000
+
+}
+
+.perguntas
+{
+    max-width: 1200px;
+    padding: 64px 160px;
+    margin: 0px auto;
+    background-color: #121212;
+
+}
+
+.perguntas h2
+{
+    margin-top: 0px;
+    margin-bottom: 64px;
+    font-size: 4rem;
+    font-weight: bold;
+    color: #ffffff;
+
+}
+
+.pergunta
+{
+    padding: 20px 24px;
+    background-color: #000000;
+    border-radius: 5px;
+
+}
+
+.pergunta:nth-child(even)
+{
+    background-color: #090909;
+
+}
+
+.pergunta button
+{
+    width: 100%;
+    border: none;
+    margin-bottom: 16px;
+    font-size: 1.5rem;
+    text-align: left;
+    font-weight: bold;
+    background: none;
+    color: #ffffff;
+    position: relative;
+    cursor: pointer;
+
+}
+
+.pergunta button::before
+{
+    content: "";
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    background-color: #ffb800;
+    border-radius: 4px;
+    position: absolute;
+    top: 10px;
+    left: -16px;
+
+}
+
+.pergunta button::after
+{
+    content: "";
+    display: inline-block;
+    width: 14px;
+    height: 6px;
+    background-image: url(/img/icones/seta-abrir.svg);
+    position: absolute;
+    top: 10px;
+    right: 0px;
+    transition: 0.2s;
+
+}
+
+.pergunta button:hover::after
+{
+    transform: rotate(180deg);
+    
+}
+
+.pergunta dd
+{
+    max-width: 700px;
+    font-size: 1rem;
+    color: #dedede;
+
+}
+
+.js .pergunta dd
+{
+    display: none;
+
+}
+
+.js .pergunta dd.ativo
+{
+    display: block;
+
+}
+
+@media(max-width: 1200px)
+{
+    .segurosP-titulo
+    {
+        padding-top: 48px;
+        padding-bottom: 48px;
+
+    }
+
+    .segurosP-titulo h1
+    {
+        font-size: 3rem;
+
+    }
+
+    .segurosP-opcoes
+    {
+        grid-template-columns: 1fr;
+        padding-bottom: 48px;
+
+    }
+
+    .segurosP-opcoes h3
+    {
+        margin-bottom: 12px;
+        font-size: 2.75rem;
+
+    }
+
+    .seguroP-preco
+    {
+        margin-bottom: 32px;
+        font-size: 2.75rem;
+
+    }
+    
+    .seguroP-vantagens li + li
+    {
+        margin-top: 24px;
+
+    }
+
+    .vantagens
+    {
+        padding-top: 48px;
+        padding-bottom: 48px;
+
+    }
+
+    .vantagens h2
+    {
+        margin-bottom: 48px;
+        font-size: 3rem;
+
+    }
+    
+    .vantagens-lista
+    {
+        grid-template-columns: 1fr 1fr;
+        gap: 40px;
+
+    }
+
+    .vantagem h3
+    {
+        margin-bottom: 8px;
+
+    }
+
+    .perguntas
+    {
+        padding-top: 48px;
+        padding-bottom: 48px;
+
+    }
+
+    .perguntas h2
+    {
+        margin-bottom: 48px;
+        font-size: 3rem;
+
+    }
+
+    .pergunta dt
+    {
+        margin-bottom: 12px;
+        font-size: 1.25rem;
+
+    }
+
+}
+
+@media(max-width: 1000px)
+{
+    .segurosP-titulo, .segurosP-opcoes, .vantagens, .perguntas
+    {
+        padding-left: 80px;
+        padding-right: 80px;
+
+    }
+
+    .vantagens-lista
+    {
+        grid-template-columns: 1fr;
+        gap: 32px;
+        max-width: 480px;
+
+    }
+
+}

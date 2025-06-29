@@ -1,0 +1,693 @@
+.intro
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 1200px;
+    padding: 64px 160px;
+    margin: 0px auto;
+    gap: 140px;
+    background-color: #121212;
+
+
+}
+
+.intro h1
+{
+    margin-top: 64px;
+    margin-bottom: 32px;
+    font-size: 4rem;
+    font-weight: bold;
+    color: #ffffff;
+
+}
+
+.intro p
+{
+    font-size: 1.5rem;
+    color: #dedede
+
+}
+
+.intro-bicicleta
+{
+    border-radius: 5px;
+
+}
+
+.bicicletas-lista
+{
+    max-width: 1200px;
+    padding: 64px 160px;
+    margin: 0px auto;
+    background-color: #f2f2f2;
+
+}
+
+.bicicletas-lista h2
+{
+    margin-top: 0px;
+    margin-bottom: 72px;
+    font-size: 4rem;
+    font-weight: bold;
+    color: #000000;
+
+}
+
+.bicicletas-lista ul
+{
+    display: flex;
+    margin: 0px;
+    gap: 40px;
+    overflow: auto;
+
+}
+
+.bicicletas-lista li
+{
+    min-width: 280px;
+    margin-bottom: 12px;
+}
+
+.bicicletas-lista img
+{
+    border-radius: 5px;
+
+}
+
+.bicicletas-lista h3
+{
+    display: flex;
+    align-items: center;
+    margin-top: 12px;
+    margin-bottom: 4px;
+    font-size: 1.5rem;
+    color: #000000;
+
+}
+
+.bicicletas-lista h3::before
+{
+    content: "";
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    margin-right: 8px;
+    border-radius: 4px;
+    background-color: #ffb800;
+
+}
+
+.bicicletas-lista li:hover h3::before
+{
+    width: 12px;
+    height: 12px;
+    border-radius: 6px;
+
+}
+
+.bicicletas-lista p
+{
+    margin-top: 4px;
+    margin-bottom: 0px;
+    padding-left: 16px;
+    font-size: 1rem;
+    color: #121212;
+
+}
+
+.tecnologia
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 1360px;
+    padding-left: 160px;
+    margin: 0px auto;
+    gap: 120px;
+    background-color: #121212;
+
+}
+
+.tecnologia h3
+{
+    margin: 0px;
+    font-size: 1.5rem;
+    font-weight: 100;
+    color: #dedede;
+
+}
+
+.tecnologia-texto > h3
+{
+    margin-top: 64px;
+
+}
+
+.tecnologia h2
+{
+    margin-top: 12px;
+    margin-bottom: 44px;
+    font-size: 4rem;
+    font-weight: bold;
+    color: #ffffff
+
+}
+
+.tecnologia p
+{
+    margin-bottom: 44px;
+    font-size: 1.5rem;
+    color: #dedede;
+
+}
+
+.link
+{
+    font-size: 1.5rem;
+    text-decoration: underline;
+    color: #ffb800;
+
+}
+
+.link:hover
+{
+    color: #ffffff;
+
+}
+
+.tecnologia-componentes
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 80px;
+    gap: 80px;
+
+}
+
+.tecnologia-componente
+{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    gap: 8px;
+
+}
+
+.icone
+{
+    width: 24px;
+    justify-self: center;
+
+}
+
+.tecnologia-componente h3
+{
+    width: max-content;
+    margin-bottom: 8px;
+    color: #ffffff;
+
+}
+
+.tecnologia-componente p
+{
+    grid-column: 2;
+    margin: 0px;
+    margin-bottom: 64px;
+    font-size: 1rem !important;
+    color: #dedede;
+
+}
+
+.tecnologia-imagem
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: left;
+    
+}
+
+.parceiros
+{
+    max-width: 1200px;
+    padding: 64px 160px;
+    margin: 0px auto;
+    background-color: #f2f2f2;
+
+}
+
+.parceiros h2
+{
+    margin-top: 0px;
+    margin-bottom: 64px;
+    font-size: 4rem;
+    font-weight: bold;
+    color: #000000
+
+}
+
+.marcas
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+}
+
+.marcas li
+{
+    display: grid;
+    padding: 32px;
+    border-left: solid 2px #dedede;
+}
+
+.marcas li:first-child, li:nth-child(5)
+{
+    border-left: none;
+
+}
+
+.marcas li:nth-child(n + 5)
+{
+    border-top: solid 2px #dedede;
+
+}
+
+.marcas img
+{
+    margin: auto;
+    
+}
+
+.depoimento
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 1520px;
+    margin: 0px auto;
+    background-color: #ffb800;
+
+}
+
+.depoimento-imagem
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+.depoimento-texto
+{
+    padding: 200px 72px;
+
+}
+
+.depoimento-citacao
+{
+    margin-top: 0px;
+    margin-bottom: 40px;
+    font-family: serif;
+    font-size: 2.25rem;
+    font-weight: bold;
+    font-style: italic;
+    color: #221900;
+    position: relative;
+
+}
+
+.depoimento-citacao::before
+{
+    content: "“";
+    font-size: 2.5rem;
+    color: #503c09;
+    position: absolute;
+    top: -4px;
+    left: -20px;
+
+}
+
+.depoimento-citacao::after
+{
+    content: "”";
+    font-size: 2.5rem;
+    color: #503c09;
+    position: absolute;
+
+}
+
+.depoimento-nome
+{
+    margin: 0px;
+    font-size: 1.75rem;
+    color: #503c09;
+
+}
+
+.seguros
+{
+    max-width: 1200px;
+    padding: 64px 160px;
+    margin: 0px auto;
+    background-color: #121212;
+
+}
+
+.seguros h2
+{
+    margin-top: 0px;
+    margin-bottom: 64px;
+    font-size: 4rem;
+    font-weight: bold;
+    color: #ffffff
+
+}
+
+.seguros-opcoes
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: start;
+    gap: 40px;
+
+}
+
+.seguro-prata, .seguro-ouro
+{
+    padding: 40px 52px;
+    background-color: #000000;
+    border-radius: 5px;
+
+}
+
+.seguro-titulo
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.seguro-prata h3
+{
+    margin-top: 0px;
+    margin-bottom: 60px;
+    font-size: 3rem;
+    color: #9c9c9c;
+
+}
+
+.seguro-ouro h3
+{
+    margin-top: 0px;
+    margin-bottom: 60px;
+    font-size: 3rem;
+    color: #ffb800;
+
+}
+
+.seguro-preco
+{
+    display: block;
+    margin-top: 0px;
+    margin-bottom: 60px;
+    text-align: right;
+    font-size: 3rem;
+    font-weight: bold;
+    color: #ffffff;
+
+}
+
+.seguro-preco span
+{
+    display: block;
+    font-size: 1.25rem;
+    font-weight: normal;
+    color: #dedede;
+
+}
+
+.seguro-vantagens
+{
+    margin: 0px;
+    font-size: 1.5rem;
+    color: #dedede;
+
+}
+
+.seguro-vantagens li + li
+{
+    margin-top: 40px;
+
+}
+
+.seguro-vantagens li
+{
+    display: flex;
+    align-items: center;
+    position: relative;
+
+}
+
+.seguro-vantagens li::before
+{
+    content: "";
+    display: inline-block;
+    width: 13px;
+    height: 9px;
+    background-image: url(/img/icones/lista.svg);
+    position: absolute;
+    left: -21px;
+
+}
+
+.seguro-prata .botao
+{
+    margin-top: 60px;
+    margin-bottom: 20px;
+    background-image: linear-gradient(#121212, #090909);
+    color: #dedede;
+
+}
+
+.seguro-ouro .botao
+{
+    margin-top: 60px;
+    margin-bottom: 20px;
+
+}
+
+@media(max-width: 1200px)
+{
+    .intro
+    {
+        grid-template-columns: 1fr;
+        padding-top: 0px;
+        gap: 40px;
+
+    }
+
+    .intro h1
+    {
+        margin-bottom: 20px;
+        font-size: 3rem;
+
+    }
+
+    .intro p
+    {
+        font-size: 1.25rem;
+
+    }
+
+    .bicicletas-lista h2
+    {
+        margin-bottom: 32px;
+        font-size: 3rem;
+
+    }
+
+    .bicicletas-lista h3
+    {
+        font-size: 1.25rem;
+
+    }
+
+    .tecnologia
+    {
+        grid-template-columns: 1fr;
+        padding: 64px 160px;
+
+    }
+
+    .tecnologia-texto > h3
+    {
+        margin-top: 0px;
+
+    }
+
+    .tecnologia h2
+    {
+        margin-bottom: 20px;
+        font-size: 3rem;
+
+    }
+
+    .tecnologia p
+    {
+        margin-bottom: 32px;
+        font-size: 1.25rem;
+
+    }
+
+    .tecnologia-componentes
+    {
+        margin-top: 60px;
+
+    }
+
+    .tecnologia-componentes p
+    {
+        margin-bottom: 0px;
+
+    }
+
+    .tecnologia-imagem
+    {
+        display: none;
+
+    }
+
+    .parceiros h2
+    {
+        margin-bottom: 32px;
+        font-size: 3rem;
+
+    }
+
+    .marcas li
+    {
+        padding: 24px;
+
+    }
+
+    .seguros h2
+    {
+        margin-bottom: 32px;
+        font-size: 3rem;
+
+    }
+
+    .seguros-opcoes
+    {
+        grid-template-columns: 1fr;
+
+    }
+
+    .seguros h3
+    {
+        margin-bottom: 12px;
+        font-size: 2.75rem;
+
+    }
+
+    .seguro-preco
+    {
+        margin-bottom: 32px;
+        font-size: 2.75rem;
+
+    }
+    
+    .seguro-vantagens li + li
+    {
+        margin-top: 24px;
+
+    }
+}
+
+@media(max-width: 1000px)
+{
+    .intro
+    {
+        padding-left: 80px;
+        padding-right: 80px;
+
+    }
+
+    .bicicletas-lista
+    {
+        padding-left: 80px;
+        padding-right: 80px;
+
+    }
+
+    .tecnologia
+    {
+        padding-left: 80px;
+        padding-right: 80px;
+        padding-bottom: 32px;
+
+    }
+
+    .tecnologia-componentes
+    {
+        grid-template-columns: 1fr;
+        gap: 20px;
+
+    }
+
+    .tecnologia-componentes p
+    {
+        margin-bottom: 32px;
+
+    }
+
+    .parceiros
+    {
+        padding-left: 80px;
+        padding-right: 80px;
+
+    }
+    
+    .marcas
+    {
+        grid-template-columns: 1fr 1fr;
+
+    }
+
+    .marcas li:nth-child(n + 3)
+    {
+        border-top: solid 2px #dedede;
+
+    }
+
+    .marcas li:nth-child(odd)
+    {
+        border-left: none;
+
+    }
+
+    .depoimento
+    {
+        grid-template-columns: 1fr;
+
+    }
+
+    .depoimento-texto
+    {
+        padding-top: 60px;
+        padding-bottom: 64px;
+
+    }
+
+    .depoimento-citacao
+    {
+        margin-bottom: 32px;
+
+    }
+
+    .seguros
+    {
+        padding-left: 80px;
+        padding-right: 80px;
+
+    }
+}

@@ -1,0 +1,77 @@
+.cabecalho
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    padding: 32px 160px;
+    margin: 0px auto;
+    gap: 20px;
+    background-color: #000000;
+
+}
+
+.menu
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 120px;
+
+}
+
+.menu a
+{
+    font-size: 1.25rem;
+    color: #ffffff;
+    position: relative;
+
+}
+
+.menu a::after
+{
+    content: "";
+    display: block;
+    width: 0%;
+    height: 2px;
+    background-color: #ffffff;
+    position: absolute;
+    bottom: -4px;
+
+}
+
+.menu a:hover::after, .menu a.ativo::after
+{
+    width: 100%;
+    transition: 0.2s;
+
+}
+
+@media(max-width: 1200px)
+{
+    .menu
+    {
+        gap: 80px;
+
+    }
+
+}
+
+@media(max-width: 1000px)
+{
+    .cabecalho
+    {
+        flex-direction: column;
+        padding-left: 80px;
+        padding-right: 80px;
+
+    }
+
+    .menu
+    {
+        gap: 40px;
+
+    }
+
+}

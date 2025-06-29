@@ -1,0 +1,122 @@
+.rodape
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width: 1200px;
+    padding: 40px 160px;
+    margin: 0px auto;
+    background-color: #000000;
+
+}
+
+.rodape p
+{
+    margin-top: 40px;
+    margin-bottom: 0px;
+    font-size: 1rem;
+    color: #dedede;
+
+}
+
+.rodape h3
+{
+    margin-top: 0px;
+    margin-bottom: 40px;
+    font-size: 1.5rem;
+    color: #ffffff;
+
+}
+
+.rodape-contato ul
+{
+    margin-bottom: 40px;
+    position: relative;
+
+}
+
+.rodape-contato ul::after
+{
+    content: "";
+    display: block;
+    width: 240px;
+    height: 2px;
+    background-color: #121212;
+    position: absolute;
+    bottom: -20px;
+
+}
+
+.rodape-contato li
+{
+    margin-bottom: 8px;
+    font-size: 1.25rem;
+    color: #dedede;
+
+}
+
+.rodape-redes
+{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+
+}
+
+.rodape-nav li
+{
+    margin-bottom: 12px;
+
+}
+
+.rodape-nav a
+{
+    font-size: 1.25rem;
+    color: #dedede;
+
+}
+
+.rodape-nav a:hover
+{
+    color: #ffffff;
+
+}
+
+@media(max-width: 1200px)
+{
+    .rodape
+    {
+        grid-template-columns: 1fr;
+        gap: 40px;
+
+    }
+
+    .rodape p
+    {
+        margin-top: 16px;
+
+    }
+
+    .rodape h3, .rodape ul
+    {
+        margin-bottom: 20px;
+
+    }
+
+    .rodape-contato ul::after
+    {
+        bottom: -10px;
+
+    }
+
+}
+
+@media(max-width: 1000px)
+{
+    .rodape
+    {
+        padding-left: 80px;
+        padding-right: 80px;
+
+    }
+
+}
