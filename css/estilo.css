@@ -1,19 +1,19 @@
-@import "./css/global.css";
-@import "./css/cabecalho.css";
-@import "./css/rodape.css";
+@import "./global.css";
+@import "./cabecalho.css";
+@import "./rodape.css";
 
-@import "./css/index.css";
+@import "./index.css";
 
-@import "./css/bicicletas.css";
+@import "./bicicletas.css";
 
-@import "./css/nimbus.css";
-@import "./css/magic.css";
-@import "./css/nebula.css";
+@import "./nimbus.css";
+@import "./magic.css";
+@import "./nebula.css";
 
-@import "./css/seguros.css";
+@import "./seguros.css";
 
-@import "./css/contato.css";
+@import "./contato.css";
 
-@import "./css/orcamento.css";
+@import "./orcamento.css";
 
-@import "./css/termos.css";
+@import "./termos.css";
